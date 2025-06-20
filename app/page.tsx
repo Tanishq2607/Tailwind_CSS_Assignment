@@ -14,7 +14,11 @@ export default function Home() {
         <p className="text-gray-400 mt-1.5 font-sans">UX/UI Designer</p>
 
         <div className="flex justify-center mt-3 mb-4">
-          <Image src="/rating.png" alt="rating" width={100} height={20} />
+          <Image src="/Star_light.png" alt="rating" width={20} height={2} />
+          <Image src="/Star_light.png" alt="rating" width={20} height={2} />
+          <Image src="/Star_light.png" alt="rating" width={20} height={2} />
+          <Image src="/Star_light.png" alt="rating" width={20} height={2} />
+          <Image src="/Star_light_1.png" alt="rating" width={20} height={2} />
         </div>
 
         <p className="text-sm text-gray-500 mb-4 px-2 font-sans">
@@ -22,11 +26,11 @@ export default function Home() {
           being able to ride the horse.
         </p>
 
-        <button className="bg-indigo-500 text-white px-15 py-3 rounded-md font-medium font-sans mt-5 hover:bg-indigo-600">
+        <button className="bg-indigo-500 text-white px-15 py-3 rounded-md font-medium font-sans mt-5 hover:bg-indigo-600 cursor-pointer">
           Follow
         </button>
 
-        <div className="border-t mt-4 mb-8"></div>
+        <div className="border-t border-gray-300 mt-4 mb-8"></div>
 
         <div className="flex justify-center gap-9">
           <div>
